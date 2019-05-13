@@ -1,4 +1,15 @@
-# Static_Node.js
+This project is an portfolio site that shows off all the projects developed so far.
+
+Run 'npm install' to download all necessary dependencies.
+Then
+Run 'npm start' to start the app
+
+
+
+
+
+
+# Project 6
 added the following to:
 
 STYLE.CSS
