@@ -1,0 +1,9 @@
+extends layout.pug
+
+block content
+    a( href='/') ← Please Click Here to Return to Homepage.
+    p(style='text-align:center;')
+        img(src='/static/images/error.png')
+    h1(style='text-align:center;')= error.message
+    h2(style='text-align:center;')= 'Error ' + error.status
+    p(style='text-align:center; border-radius:15px; border-color: black;')= error.stack 

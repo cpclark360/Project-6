@@ -1,0 +1,53 @@
+{
+    "projects": [
+        { 
+            "id":"0",
+            "project_name":"Random Quote Generator",
+            "description":"Program displays a randomly selected quote each time the user clicks a button. In addition to a timer that automatically changes the quote.",
+            "technologies":["HTML","CSS","Javascript"],
+            "live_link":"https://cpclark360.github.io/random_quote_generator/",
+            "github_link":"https://github.com/cpclark360/Full-Stack-Tech-Degree-Project-1",
+            "images_url":["/static/images/project1_landscape.jpg","/static/images/project1_main.jpg","/static/images/project1_main2.jpg","/static/images/project1_main3.jpg"]
+        },
+
+        { 
+            "id":"1",
+            "project_name":"List Pagination and Filtering",
+            "description":"Program divides a list of profiles into a series of 'pages' to improve user experience.",
+            "technologies":["HTML","CSS","Javascript"],
+            "live_link":"https://cpclark360.github.io/List_Pagination_and_Filtering/",
+            "github_link":"https://github.com/cpclark360/Full-Stack-Tech-Degree-Project-2",
+            "images_url":["/static/images/project2_landscape.jpg","/static/images/project2_main.jpg","/static/images/project2_main2_.jpg","/static/images/project2_main3.jpg"]
+        },
+
+        { 
+            "id":"2",
+            "project_name":"Interactive Form",
+            "description":"A form that's user friendly and interactive. Uses Regular Expressions to validate user, email and credit card input before submitting form.",
+            "technologies":["HTML","CSS","Javascript","JQuery"],
+            "live_link":"https://cpclark360.github.io/Interactive_Form_4/",
+            "github_link":"https://github.com/cpclark360/Full_Stack_Tech_Degree_Project_3",
+            "images_url":["/static/images/project3_landscape.jpg","/static/images/project3_main.jpg","/static/images/project3_main2.jpg","/static/images/project3_main3.jpg"]
+        },
+
+        { 
+            "id":"3",
+            "project_name":"OOP Word Guessing Game",
+            "description":"Javascript OOP browser-based word guessing game called 'Phrase Hunter'. The user gets 5 'lives' to try and guess the phrase and if they run out out lives the game ends. However if the user successfully guesses the phrase the game ends and the user gets the option to start over with a new phrase to guess. Letters can be enter using the visual keyboard and/or the user's physical keyboard",
+            "technologies":["HTML","CSS","Javascript","JQuery"],
+            "live_link":"https://cpclark360.github.io/OOP_Game_Show_App/",
+            "github_link":"https://github.com/cpclark360/Full-stack-Tech-Degree-Project-4",
+            "images_url":["/static/images/project4_landscape.jpg","/static/images/project4_main.jpg","/static/images/project4_main2.jpg","/static/images/project4_main3.jpg"]
+        },
+
+        { 
+            "id":"4",
+            "project_name":"Public API Requests",
+            "description":"Employee directory created by communicating with third-party API",
+            "technologies":["HTML","CSS","Javascript","JQuery","AJAX"],
+            "live_link":"https://cpclark360.github.io/Public_API_Requests/",
+            "github_link":"https://github.com/cpclark360/Full-stack-Javascript-Project-5",
+            "images_url":["/static/images/project5_landscape.jpg","/static/images/project5_main.jpg","/static/images/project5_main2.jpg","/static/images/project5_main3.jpg"]
+        }
+  
+    ]}
