@@ -14,17 +14,17 @@ html(class="no-js" lang="en" dir="ltr")
         block sidebar
           br
           .cell.shrink
-            img.thumbnail(src='/static/images/profile.jpg')
+            img.thumbnail_profile(src='/static/images/profile.jpg')
           .cell.auto
 
             //- Add your name here.
-            h5 Cedric Clark
+            h5(style='text-align:center;') Cedric Clark
 
             //- Add text here to describe who you are, what you do, and why you are so aweome.
             p.text-light
               | I wouldn't be where I am today If it wasn't for my determination and love for challenges. 
             //- Add about page route to the href below. 
-            a(href='/about') Learn More →
+            a.text-light(href='/about') Learn More →
 
     .off-canvas-content(data-off-canvas-content='')
       .title-bar.hide-for-large
