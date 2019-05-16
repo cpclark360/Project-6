@@ -21,28 +21,33 @@ h1,h2,h3,h4,h5,p{
     -webkit-text-transform: uppercase;
     text-transform: uppercase;
     font-weight: 600;
+    
   }
 
   p{
     font-size: 15px;
-    color: #666;
+    color: rgb(0, 0, 0);
   }
 
 .round{
-  border-radius: 5px;
+  border-radius: 3px;
 }
 
 .text-light{
-  color: #666;
+  color: rgb(0, 0, 0);
 }
 
 .button{
   border-radius: 5px;
   background-color: #333;
+
+  -moz-box-shadow:    3px 6px 5px 6px #ccc;
+  -webkit-box-shadow: 5px 5px 6px 1px #ccc;
+  box-shadow:         6px 6px 5px 1px #ccc;
 }
 
 .button:hover{
-  background-color: #111;
+  background-color:rgb(251, 182, 82);
 }
 
 a{
@@ -50,7 +55,7 @@ color:black;
 }
 
 a:hover{
-  color: gray;
+  color:rgb(251, 182, 82);
 }
 
 .image{
@@ -65,11 +70,20 @@ a:hover{
     border-style: solid;
     border-color:black;
     border-radius: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+
+    -moz-box-shadow:    3px 6px 5px 6px #ccc;
+    -webkit-box-shadow: 5px 5px 6px 6px #ccc;
+    box-shadow:         6px 6px 6px 6px #ccc;
 }
 
 .portfolio-me{
-  padding: 20px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 0px;
+
+  padding: 0px;
   background: #121213;
   color: #fff;
   box-shadow: none !important;
@@ -77,13 +91,13 @@ a:hover{
 
   .portfolio-me p{
     font-size: 14px;
-    color: #999;
+    color: #fff;
   }
 
   .portfolio-me a{
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 600;
-    color: #555;
+    color: #fff;
     font-size: 13px;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
@@ -92,7 +106,8 @@ a:hover{
   }
 
   .portfolio-me a:hover{
-    color: #999;
+    color: rgb(251, 182, 82);
+
   }
 
 .portfolio-breadcrumb{
@@ -116,8 +131,11 @@ a:hover{
 }
 
 .portfolio-intro p{
-  border-bottom: 1px solid #eaeaea;
-  padding-bottom: 40px;
+  border-bottom: 1px solid #000000;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
 }
 
 .portfolio-index{
@@ -136,8 +154,17 @@ a:hover{
     border-top-right-radius:15px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
-    
 
+  }
+
+  .thumbnail_profile{
+    border-radius: 50%;
+    text-align:right;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 2px;
   }
 
   .portfolio-index a{
@@ -147,9 +174,13 @@ a:hover{
   .portfolio-index .cell{
     border-width: 3px;
     border-style: solid;
-    border-color:#6a6a6a;
+    border-color:black;
     border-radius: 15px;
     margin-bottom: 15px;
+
+    -moz-box-shadow:    3px 6px 5px 6px #ccc;
+    -webkit-box-shadow: 5px 5px 6px 6px #ccc;
+    box-shadow:         6px 6px 5px 6px #ccc;
   }
 
     .portfolio-index .cell h5{
@@ -159,8 +190,9 @@ a:hover{
     .portfolio-index .cell:hover{
       border-width: 3px;
       border-style: solid;
-      border-color: black;
-      background-color:#cacaca;
+      border-color:black;
+      background-color:rgb(251, 182, 82);
+
     }
 
 .portfolio-meta{
@@ -177,7 +209,7 @@ a:hover{
 
 .portfolio-project li{
   font-size: 13px;
-  color: #444;
+  color:#0a0a0a;
 }
 
 .portfolio-bio{
